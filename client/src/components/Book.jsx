@@ -13,7 +13,6 @@ import { AuthContext } from '../context/authContext';
 
 function Book({setOpen, hotelId, price}) {
   const { user } = useContext(AuthContext)
-  console.log(user);
 
   const { data } = useFetch("/hotels/room/" + hotelId)
   const [selectedRooms, setSelectedRooms] = useState([])
