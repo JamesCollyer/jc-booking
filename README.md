@@ -2,7 +2,7 @@
   
 ### React,
 ### Tailwind CSS,
-### React Context API
+### React Context API,
 ### MongoDB / Mongoose
 
 
