@@ -187,7 +187,6 @@ function List() {
       </div>
       <div className="">
         <Subscribe />
-        {/* <Footer /> */}
       </div>
     </div>
   );

@@ -68,7 +68,7 @@ function Book({setOpen, hotelId, price}) {
     }
   }
 
-  //Stripe stuff
+  // Stripe stuff
   const KEY = 'pk_test_51LzwFlGaQaB9dPEeSiquJXYnhgHt2hAJsDptCfWhjD1cf87X1JgIuRcaHXekaiCoNJ5Tm6ILTmxfN6MAKEonJ6gw00rfybNDOx'
   const [stripeToken, setStripeToken] = useState(null);
   const onToken = (token) => {

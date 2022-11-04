@@ -60,7 +60,6 @@ const Hotel = () => {
       setOpenBook(true)
     }else{
       setOpenLogin(true)
-      //navigate("/login")
     }
   }
 
@@ -146,7 +145,6 @@ const Hotel = () => {
 
       <div className="">
         <Subscribe />
-        {/* <Footer /> */}
       </div>
       {openBook && (
         <Book setOpen={setOpenBook} hotelId={id} price={days * data?.cheapestPrice * options?.room} />
