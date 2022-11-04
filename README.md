@@ -1,9 +1,9 @@
-Technologies used for this project include:
+# Technologies used for this project include:
   
-  React
-  Tailwind CSS
-  React Context API
-  MongoDB / Mongoose
+## React,
+### Tailwind CSS,
+## React Context API
+## MongoDB / Mongoose
 
 
 
